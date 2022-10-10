@@ -3,6 +3,7 @@
     <string name="piano_grupo_02">Piano Grupo 02</string>
     <string name="hamilton_rafael_solis_pinzon">HAMILTON RAFAEL SOLIS PINZON</string>
     <string name="jaime_alberto_portillo_luna">JAIME ALBERTO PORTILLO LUNA</string>
+<<<<<<< HEAD
     <string name="doNota">DO</string>
     <string name="re">RE</string>
     <string name="mi">MI</string>
@@ -13,4 +14,6 @@
     <string name="cambiar_tipo_de_piano">Cambiar tipo de piano</string>
     <string name="salir">Salir</string>
     <string name="acerca_de">Acerca de</string>
+=======
+>>>>>>> 3cbf9cc (initial commit)
 </resources>
