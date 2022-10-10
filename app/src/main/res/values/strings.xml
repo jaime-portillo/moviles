@@ -3,4 +3,11 @@
     <string name="piano_grupo_02">Piano Grupo 02</string>
     <string name="hamilton_rafael_solis_pinzon">HAMILTON RAFAEL SOLIS PINZON</string>
     <string name="jaime_alberto_portillo_luna">JAIME ALBERTO PORTILLO LUNA</string>
+    <string name="doNota">DO</string>
+    <string name="re">RE</string>
+    <string name="mi">MI</string>
+    <string name="fa">FA</string>
+    <string name="sol">SOL</string>
+    <string name="la">LA</string>
+    <string name="si">SI</string>
 </resources>
