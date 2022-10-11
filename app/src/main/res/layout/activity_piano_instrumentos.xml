@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     tools:context=".piano_Instrumentos">
 
     <LinearLayout
@@ -13,16 +14,19 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView8"
+
             android:layout_width="97dp"
             android:layout_height="118dp"
+            android:contentDescription="TODO"
             app:srcCompat="@drawable/flauta" />
 
         <Button
-            android:id="@+id/button18"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="#29C52F" />
+            android:layout_marginEnd="1dp"
+            android:backgroundTint="#29C52F"
+            android:onClick="imvTeclaFlauta_onClick" />
 
     </LinearLayout>
 
@@ -33,18 +37,20 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView6"
+
             android:layout_width="88dp"
-            android:layout_height="19dp"
+            android:layout_height="116dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/maracas" />
 
         <Button
-            android:id="@+id/button9"
+
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="600dp"
+            android:layout_marginEnd="1dp"
             android:layout_weight="1"
-            android:backgroundTint="#FFEB3B" />
+            android:backgroundTint="#FFEB3B"
+            android:onClick="imvTeclaMaracas_onClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,16 +60,19 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView8"
+
             android:layout_width="97dp"
             android:layout_height="118dp"
             app:srcCompat="@drawable/saxofon" />
 
         <Button
-            android:id="@+id/button15"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="#633121" />
+            android:layout_marginEnd="1dp"
+            android:backgroundTint="#633121"
+            android:onClick="imvTeclaSaxofon_onClick"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -73,16 +82,18 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView8"
+
             android:layout_width="97dp"
             android:layout_height="118dp"
             app:srcCompat="@drawable/tambor" />
 
         <Button
-            android:id="@+id/button15"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="#03A9F4" />
+            android:layout_marginEnd="1dp"
+            android:backgroundTint="#03A9F4"
+            android:onClick="imvTeclaClaTambor_onClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -92,16 +103,18 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView8"
+
             android:layout_width="97dp"
             android:layout_height="118dp"
             app:srcCompat="@drawable/violin" />
 
         <Button
-            android:id="@+id/button15"
+
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:backgroundTint="#E62869" />
+            android:layout_height="620dp"
+            android:layout_marginEnd="1dp"
+            android:backgroundTint="#E62869"
+            android:onClick="imvTeclaClaViolin_onClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -121,7 +134,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="#673AB7"
-            android:backgroundTint="#673AB7" />
+            android:backgroundTint="#673AB7"
+            android:onClick="imvTeclaGuitarra_onClick" />
     </LinearLayout>
 
 </LinearLayout>

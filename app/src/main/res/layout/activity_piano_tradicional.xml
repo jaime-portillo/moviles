@@ -16,7 +16,7 @@
     tools:context=".Piano_tradicional">
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/bntNotaDo"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="102dp"
         android:layout_height="match_parent"
@@ -24,30 +24,35 @@
         android:layout_weight="1"
         android:width="10dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="btnNotaDo_onClick"
         android:text="@string/doNota"
-        android:textColor="#0E0E0E" />
+        android:textColor="#0E0E0E"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/bntNotaRe"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="108dp"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_weight="1"
         android:backgroundTint="#F8F6F6"
+        android:onClick="btnNotaRe_onClick"
         android:text="@string/re"
         android:textColor="#101010" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/bntNotaMi"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="100dp"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layout_weight="1"
         android:backgroundTint="#FFFFFF"
+        android:onClick="btnNotaMi_onClick"
         android:text="@string/mi"
-        android:textColor="#0E0E0E" />
+        android:textColor="#0E0E0E"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button13"
@@ -57,8 +62,10 @@
         android:layout_marginStart="10dp"
         android:layout_weight="1"
         android:backgroundTint="#F8F6F6"
+        android:onClick="btnNotaFa_onClick"
         android:text="@string/fa"
-        android:textColor="#101010" />
+        android:textColor="#101010"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button14"
@@ -68,8 +75,10 @@
         android:layout_marginStart="10dp"
         android:layout_weight="1"
         android:backgroundTint="#FFFFFF"
+        android:onClick="btnNotaSol_onClick"
         android:text="@string/sol"
-        android:textColor="#0E0E0E" />
+        android:textColor="#0E0E0E"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button16"
@@ -79,8 +88,10 @@
         android:layout_marginStart="10dp"
         android:layout_weight="1"
         android:backgroundTint="#F8F6F6"
+        android:onClick="btnNotaLa_onClick"
         android:text="@string/la"
-        android:textColor="#101010" />
+        android:textColor="#101010"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button17"
@@ -90,6 +101,7 @@
         android:layout_marginStart="10dp"
         android:layout_weight="1"
         android:backgroundTint="#FFFFFF"
+        android:onClick="btnNotaSi_onClick"
         android:text="@string/si"
         android:textColor="#0E0E0E" />
 </LinearLayout>
