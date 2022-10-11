@@ -10,4 +10,7 @@
     <string name="sol">SOL</string>
     <string name="la">LA</string>
     <string name="si">SI</string>
+    <string name="cambiar_tipo_de_piano">Cambiar tipo de piano</string>
+    <string name="salir">Salir</string>
+    <string name="acerca_de">Acerca de</string>
 </resources>

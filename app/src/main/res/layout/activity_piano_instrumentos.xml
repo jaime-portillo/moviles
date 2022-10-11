@@ -16,7 +16,7 @@
             android:id="@+id/imageView8"
             android:layout_width="97dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/perico" />
+            app:srcCompat="@drawable/flauta" />
 
         <Button
             android:id="@+id/button18"
@@ -37,7 +37,7 @@
             android:layout_width="88dp"
             android:layout_height="19dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/leon" />
+            app:srcCompat="@drawable/maracas" />
 
         <Button
             android:id="@+id/button9"
@@ -57,7 +57,7 @@
             android:id="@+id/imageView8"
             android:layout_width="97dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/soportar" />
+            app:srcCompat="@drawable/saxofon" />
 
         <Button
             android:id="@+id/button15"
@@ -76,7 +76,7 @@
             android:id="@+id/imageView8"
             android:layout_width="97dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/delfin" />
+            app:srcCompat="@drawable/tambor" />
 
         <Button
             android:id="@+id/button15"
@@ -95,7 +95,7 @@
             android:id="@+id/imageView8"
             android:layout_width="97dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/mascota" />
+            app:srcCompat="@drawable/violin" />
 
         <Button
             android:id="@+id/button15"
@@ -114,7 +114,7 @@
             android:id="@+id/imageView8"
             android:layout_width="97dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/feliz" />
+            app:srcCompat="@drawable/guitarra" />
 
         <Button
             android:id="@+id/button15"
