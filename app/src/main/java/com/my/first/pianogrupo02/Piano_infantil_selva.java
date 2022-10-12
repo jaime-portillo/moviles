@@ -49,7 +49,7 @@ public class Piano_infantil_selva extends AppCompatActivity {
                             LiberarRecursos();
                             startActivity(pianoNormal);
                         } else if (opciones[item].equals("Piano de Instrumentos musicales")) {
-                            Intent pianoMusic = new Intent(Piano_infantil_selva.this, Piano_tradicional.class);
+                            Intent pianoMusic = new Intent(Piano_infantil_selva.this, piano_Instrumentos.class);
                             LiberarRecursos();
                             startActivity(pianoMusic);
                         }
